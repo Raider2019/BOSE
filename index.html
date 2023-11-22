@@ -1,0 +1,179 @@
+<!-- #region heaad -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- #endregion -->
+  <!-- #region body -->
+  <body id="home">
+    <!-- #region header -->
+
+    <header class="header">
+      <div class="header__top">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <a href="#menu"
+          ><img src="images/icons/Icon-Burger-menu.svg" alt="Icon-Burger-menu"
+        /></a>
+      </div>
+
+      <div class="header__bottom">
+        <img src="images/Sound waves.svg" alt="Sound waves" />
+        <h1 class="header__title">
+          The world shades. <br />
+          Your music shines.
+        </h1>
+      </div>
+    </header>
+    <!-- #endregion -->
+    <!-- #region menu -->
+    <div class="menu" id="menu">
+      <div class="menu__top">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <a
+          href="#home
+      "
+        >
+          <img src="images/icons/Icon-Close.svg" alt="Icon-Close"
+        /></a>
+      </div>
+      <div class="menu__nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#home" class="nav-list-item-link">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#recommended" class="nav-list-item-link">recommended</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#categories" class="nav-list-item-link">Categories</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#how-to-buy" class="nav-list-item-link">How to buy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- #endregion -->
+    <!-- #region main -->
+    <main class="main">
+      <section class="recommended" id="recommended">
+        <h2 class="recommended__title">Recommended</h2>
+        <div class="recommended__products">
+          <article class="product">
+            <img
+              src="images/products/Bose portable Smart speaker.png"
+              alt="Bose portable Smart speaker"
+              class="product_photo"
+            />
+            <h3 class="product_title">Bose portable Smart speaker</h3>
+            <p class="product__category">Smart home</p>
+            <p class="product_price">$ 399.00</p>
+          </article>
+          <article class="product">
+            <img
+              src="images/products/SoundLink Flex Bluetooth speaker.png"
+              alt="SoundLink Flex Bluetooth speaker"
+              class="product_photo"
+            />
+            <h3 class="product_title">SoundLink Flex Bluetooth speaker</h3>
+            <p class="product__category">Portable bluetooth</p>
+            <p class="product_price">$ 149.00</p>
+          </article>
+          <article class="product">
+            <img
+              src="images/products/SoundLink Color Bluetooth speaker II.png"
+              alt="SoundLink Color Bluetooth speaker II"
+              class="product_photo"
+            />
+            <h3 class="product_title">SoundLink Color Bluetooth speaker II</h3>
+            <p class="product__category">Portable bluetooth</p>
+            <p class="product_price">$ 129.00</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="categories">
+        <h2 class="categories__title">
+          Browse Bose <br />
+          products by category
+        </h2>
+        <article class="category">
+          <div class="category__photos">
+            <img
+              src="images/headphones.png"
+              alt="headphones"
+              class="photo-wide"
+            />
+            <img src="images/earbuds.svg" alt="earbuds " class="photo-square" />
+          </div>
+          <h3 class="category__title">Headphones & earbuds</h3>
+        </article>
+        <article class="category">
+          <div class="category__photos">
+            <img
+              src="images/speaker__long.png"
+              alt="speaker__long"
+              class="photo-wide"
+            /><img
+              src="images/speaker__small.png"
+              alt="speaker__small"
+              class="photo-square"
+            />
+          </div>
+          <h3 class="category__title">Speakers</h3>
+        </article>
+        <article class="category">
+          <div class="category__photos">
+            <img src="images/man.png" alt="man" class="photo-square" /><img
+              src="images/women.png"
+              alt="women"
+              class="photo-wide"
+            />
+          </div>
+          <h3 class="category__title">Audio sunglasses</h3>
+        </article>
+      </section>
+
+      <section class="how-to-buy" id="how-to-buy">
+        <h2 class="how-to-buy__title">
+          Why buy direct <br />
+          from Bose
+        </h2>
+        <div class="how-to-buy__content">
+          <ul class="how-to-buy__list">
+            <li class="how-to-buy__list__item">
+              Free 2-day shipping and returns
+            </li>
+            <li class="how-to-buy__list__item">
+              Free 2-day shipping and returns
+            </li>
+            <li class="how-to-buy__list__item">World class customer service</li>
+            <li class="how-to-buy__list__item">My Bose account managements</li>
+          </ul>
+          <p class="how-to-buy__desc">
+            A great product is more than what’s in the box. It’s a promise of
+            premium performance, world-class support, and everything you expect
+            from a trusted brand. It’s just one of many reasons why you’ll shop
+            with confidence on Bose.com.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- #endregion -->
+    <!-- #region footer -->
+    <footer class="footer"></footer>
+    <!-- #endregion -->
+  </body>
+  <!-- #endregion -->
+</html>
